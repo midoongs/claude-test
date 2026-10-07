@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": ". \"D:/claude-test/.claude/hooks/session-log.sh\" start"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": ". \"D:/claude-test/.claude/hooks/session-log.sh\" end"
+          }
+        ]
+      }
+    ]
+  }
+}
